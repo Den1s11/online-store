@@ -1,0 +1,64 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Street Fighter 6 - Онлайн магазин</title>
+    <link href="css/style.css" rel="stylesheet" />
+</head>
+<body>
+    <header>
+        <h1>Интернет магазин</h1>
+    </header>
+    <main>
+        <section class="product-details">
+            <div class="product-image">
+                <img src="images/sf6.jpg" alt="Street Fighter 6">
+            </div>
+            <div class="product-info">
+                <h2>Street Fighter 6</h2>
+                <p>Жанр: Бойни</p>
+                <p>Брой играчи: 1-2</p>
+                <p>Разработчик: Capcom</p>
+                <p>PEGI рейтинг: 12+</p>
+                <p>Цена: 139.99лв.</p>
+                <p>
+                    Подгответе се за екшън със Street Fighter 6, най-новото заглавие от емблематичната поредица,
+                    превърнала се в култова класика за поколения играчи.
+                    Очакват ви три различни режима на игра, добре познати персонажи, както и нови герои.
+                </p>
+            </div>
+        </section>
+
+        <section class="purchase-form">
+            <h2>Форма за закупуване</h2>
+            <form id="purchase-form" action="#" method="post">
+                <label for="name">Име:</label>
+                <input type="text" id="name" name="name" required>
+                <label for="address">Адрес:</label>
+                <input type="text" id="address" name="address" required>
+                <button type="submit">Изпрати</button>
+            </form>
+        </section>
+        
+        <h2>Потребителски ревюта</h2>
+        <section class="user-reviews">
+            <div class="review">
+                <p>Жена ми каза, че ако тази отзив получи 100 харесвания, мога да кръстя сина ни RYU</p>
+            </div>
+            <div class="review">
+                <p>Да, просто ще играя на Street Fighter отсега нататък, животът ми е изпълнен.</p>
+            </div>
+        </section>
+
+        <section class="review-form">
+            <h2>Форма за изпращане на ревю</h2>
+            <form id="review-form" action="#" method="post">
+                <label for="comment">Коментар:</label>
+                <textarea id="comment" name="comment" required></textarea>
+                <button type="submit">Изпрати</button>
+            </form>
+        </section>
+    </main>
+    <script src="js/script.js"></script>
+</body>
+</html>
